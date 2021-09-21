@@ -11,7 +11,7 @@ desc: "This is Minima, an undoubtedly simple and lightweight dark/light mode the
 
 #menu
 menu:
-  Works: /Works
+  Archive: /Archive
   About: /About
 
 #index/main page max show posts (in number)
@@ -29,7 +29,7 @@ usercss: css/user.css
 # social profile at the footer/bottom
 footer: true
 placename: Earth
-placelink: https://en.wikipedia.org/wiki/Earth
+placelink: https://github.com/adisaktijrs
 github: https://github.com/adisaktijrs
 linkedin: https://linkedin.com/in/adisaktijrs
 #twitter: https://twitter.com/adisaktijrs
