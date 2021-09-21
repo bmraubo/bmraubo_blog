@@ -15,7 +15,7 @@ menu:
   # About: /About
 
 #index/main page max show posts (in number)
-max_post: 4
+max_post: 10
 
 # Colors use hex color without #
 # Theme color
