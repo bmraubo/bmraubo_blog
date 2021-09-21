@@ -12,11 +12,11 @@ desc: "Hello :)"
 #menu
 menu:
   Archive: /archives
-  # About: /About
+  About: /about
   8thLight: https://8thlight.com/
 
 #index/main page max show posts (in number)
-max_post: 10
+max_post: 7
 
 # Colors use hex color without #
 # Theme color
