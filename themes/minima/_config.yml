@@ -13,6 +13,7 @@ desc: "Hello :)"
 menu:
   Archive: /archives
   # About: /About
+  8thLight: https://8thlight.com/
 
 #index/main page max show posts (in number)
 max_post: 10
