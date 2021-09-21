@@ -32,8 +32,8 @@ placename: Earth
 placelink: https://en.wikipedia.org/wiki/Earth
 github: https://github.com/adisaktijrs
 linkedin: https://linkedin.com/in/adisaktijrs
-twitter: https://twitter.com/adisaktijrs
-instagram: https://instagram.com/adisaktijrs
+#twitter: https://twitter.com/adisaktijrs
+#instagram: https://instagram.com/adisaktijrs
 
 # Misc
 nanobar: /js/nanobar.min.js
