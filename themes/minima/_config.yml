@@ -1,13 +1,13 @@
 #title in header
-title: "Hi Folks."
+title: "A New Direction"
 
 #main info
 #owner
-owner: "A Blog about a Coding Apprenticeship"
+owner: "Paralegal => Software Consultant"
 #email: test@test.test
-info: "A student and web developer from Indonesia 🇮🇩"
+info: "Blogging about the 8th Light Apprenticeship"
 #description
-desc: "This is Minima, an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using Skeleton CSS boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries! 😁"
+desc: "Hello :)"
 
 #menu
 menu:
@@ -30,8 +30,8 @@ usercss: css/user.css
 footer: true
 placename: Earth
 placelink: https://github.com/adisaktijrs
-github: https://github.com/adisaktijrs
-linkedin: https://linkedin.com/in/adisaktijrs
+github: https://github.com/bmraubo
+linkedin: https://linkedin.com/in/bmraubo
 #twitter: https://twitter.com/adisaktijrs
 #instagram: https://instagram.com/adisaktijrs
 
