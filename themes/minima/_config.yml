@@ -11,7 +11,7 @@ desc: "This is Minima, an undoubtedly simple and lightweight dark/light mode the
 
 #menu
 menu:
-  Archive: /Archive
+  Archive: /archives
   About: /About
 
 #index/main page max show posts (in number)
