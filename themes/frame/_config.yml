@@ -25,8 +25,8 @@ date_format: MMM D, YYYY
 
 # profile
 profile:
-  title: Hi, this is Frame. 
-  body: A minimal, elegant hexo theme.
+  title: Bartosz Raubo Blog
+  body: A blog about the 8th Light Apprenticeship
   image: /profile_cover.png
 
   links:
@@ -47,7 +47,7 @@ footer:
     content:
 
 # color mode: default / classic / dark
-color_mode: default
+color_mode: dark
 
 # mathjax setting
 # note: need to install the hexo plugin for math: https://github.com/hexojs/hexo-math
