@@ -4,4 +4,4 @@ I deleted the repo and the site and started again using the helpful [Netlify ste
 
 I created a test post using `hexo new post` in Terminal, and pushed it to the repo. All working - the build process is automatic so I am taking some time reading through the deployment logs trying to understand what is going on behind the scenes.
 
-Next steps: mess around with themes.
+Next step: mess around with themes - went from [Frame](#https://frame.zhangyongqi.com/) because of its simplicity. 
