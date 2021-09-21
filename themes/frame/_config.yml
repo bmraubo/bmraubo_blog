@@ -1,0 +1,54 @@
+
+# html lang
+language: en
+
+# header
+site_brand_name: Frame.
+
+menu:
+  Home: /
+  Archive: /archives/
+  Gallery: /categories/gallery/
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/style.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/frame.js
+
+# favicon
+favicon: /favicon.ico
+
+date_format: MMM D, YYYY
+
+# profile
+profile:
+  title: Hi, this is Frame. 
+  body: A minimal, elegant hexo theme.
+  image: /profile_cover.png
+
+  links:
+    Home: /
+    Blogs: /archives/
+
+# footer
+footer:
+  copyright_info:
+    enable: false
+    author:
+
+  powered_by: # Powered by Hexo & Frame
+    enable: true
+
+  other_info:
+    enable: false
+    content:
+
+# color mode: default / classic / dark
+color_mode: default
+
+# mathjax setting
+# note: need to install the hexo plugin for math: https://github.com/hexojs/hexo-math
+mathjax_enable: false
