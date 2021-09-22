@@ -1,15 +1,8 @@
-# Building a blog using Netlify
-
-I decided to use Hexo because it was based on Node.Js and focused on blogging which is the purpose of this. Initially, I used the JamStack button to circumvent the whole `hero init` process, but that left me in a pretty poor position where I had a template blog set up and linked to a GitHub repo, but had no idea how any of it worked. 
-
-I deleted the repo and the site and started again using the helpful [Netlify step-by-step guide](#https://www.netlify.com/blog/2015/10/26/a-step-by-step-guide-hexo-on-netlify/). After some permissions errors that were resolved by getting a bit more familiar with nvm (on Linux I would have sudo’d my way around this, but this was not advised), I managed to get a boilerplate blog and repo set up manually.
-
-I created a test post using `hexo new post` in Terminal, and pushed it to the repo. All working - the build process is automatic so I am taking some time reading through the deployment logs trying to understand what is going on behind the scenes.
-
-Next step: mess around with themes - initially went for [Frame](#https://frame.zhangyongqi.com/) because of its simplicity. However, I found this design a little too complex to modify myself, so I went for [Hexo Minima](#https://adisaktijrs.github.io/minima/), which was a) simple (using only CSS and JS), and b) had clear comments within the code, allowing easy editing by a person who has limited knowledge of frontend work (me). It also had a very cool button that switched between light and dark mode. 
-
-## About Page
-
+---
+title: Much Ado About Me
+date: 2021-09-22 14:25:40
+tags:
+---
 I wanted to add an about me page, leaving the main page for blog content only. Hexo makes it pretty easy to add new pages using `hexo new page [name]`, but that simply gives me a blank page - I had to create a template myself, largely using the css already within the theme code.
 
 I basically want to create two columns: one with a picture of me, with some space below for info, such as tech stack and projects that I am working on (links to Github repos - as time goes on I could expand this into a distinct projects page). The approach is basically to read through the .css files within the Minima theme and experiment with different options. 
