@@ -47,6 +47,8 @@ switch_dark: 🌑
 favicon: /images/favicon.png
 # thumbnail
 thumbnail: /images/thumbnail.jpg
+#about photo
+about_photo: /images/photo.jpg
 
 article:
   thumbnail: true
