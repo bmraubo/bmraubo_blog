@@ -10,7 +10,7 @@ IP addresses are unwieldy and hard (for humans) to remember. To make it easier, 
 
 There are four servers involved in the DNS resolution process.
 
-1. <u>**The DNS recursor**</u> - Receives queries from client machines, and then makes queries of its own in order to provide a response. While technically it may have to make more than one query in order to reach the authoritative nameserver, caching is used to keep data from previous requests available (the cache being stored on the local machine for privacy reasons). 
+1. <u>**The DNS recursor**</u> - Receives queries from client machines, and then makes queries of its own in order to provide a response. While technically it may have to make more than one query in order to reach the authoritative nameserver, caching is used to keep data from previous requests available. 
 
 2. <u>**Root nameserver**</u> - First step of the resolution process proper, it takes the query from the DNS recursor and returns the Top Level Domain (TLD) server. In our case, the Root nameserver would point the request to the '.site' TLD.
 
@@ -30,7 +30,7 @@ Firstly, if the IP address of the website you are trying to access changes, then
 
 Secondly, there is a security risk - the less regular the cleaning cycle, the more time there is for the IP address to be used for malicious purposes - for example, replacing a legitimate website with a phishing website. This is known as DNS poisoning or DNS spoofing 
 
-Finally, from a privacy perspective, the cache holds a record of web browsing activity. Most operating systems and browsers create a DNS cache that is independent of browsing history and needs to be cleared separately. 
+Finally, from a privacy perspective, the cache holds a record of web browsing activity. Most operating systems and browsers create a DNS cache that is independent of browsing history and needs to be cleared separately. DNS caches are also maintained server-side - which is another potential privacy issue, however they usually have a clearing cycle in minutes rather than days or hours.
 
 That's about it on the topic. I have tried to move this blog onto a subdomain, to allow me to use the general bmraubo.site domain name for other purposes down the line. This can take up to 24 hours to update... which means if I did something wrong it will be a while before I realise that.
 
