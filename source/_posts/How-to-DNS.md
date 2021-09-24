@@ -1,5 +1,5 @@
 ---
-title: How to DNS
+title: How to DNS with gusto and confidence
 date: 2021-09-24 10:48:47
 tags:
 ---
