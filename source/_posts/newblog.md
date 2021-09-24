@@ -4,7 +4,13 @@ date: 2021-09-22 12:07:07
 tags:
 ---
 
-I have been asked to make a Netlify blog, partially as training and partially as a means of recording the progress and experiences of the apprenticeship here at [8thLight](https://8thlight.com/).
+I have been asked to make a Netlify blog, partially as training and partially as a means of recording the progress and experiences of the apprenticeship here at [8thLight](https://8thlight.com/). Since we are still in the midst of Welcome Week, I've mainly been given simple tasks that keep me busy before the more serious project work begins. 
+
+The previous task (using TDD principles to solve a kata, with a focus on GitHub Actions/Merge Protection) was meant to familiarise me with Continuous Intergration principles. The blog is meant to build on that by seeing how Continuous Delivery works in practice.
+
+The requirements are that the site uses a Static Site Generator to deploy from Github, takes a directory of markdown files as the input source, and then applies a template to them. I've been asked to purchase a cheap domain name for the site so that I can explore how DNS works in a little more detail. 
+
+A big challenge for me is my very limited knowledge of HTML, CSS and frontend work in general.
 
 I decided to use Hexo because it was based on Node.Js and focused on blogging - I do not need extra functionality, and would prefer to keep it simple so that I am not overwhelmed. Initially, I used the JamStack button to circumvent the whole `hexo init` process, but that left me in a pretty poor position where I had a template blog set up and linked to a GitHub repo, but had no idea how any of it worked. 
 
